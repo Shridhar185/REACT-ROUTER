@@ -1,0 +1,13 @@
+/* In this file we can update any components  */
+.container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 80vh;
+}
+/* Below updating text in Pages */
+.container h1{
+    font-size: 70px;
+    font-weight: 500;
+}

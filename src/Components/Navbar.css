@@ -1,0 +1,49 @@
+/* Navbar.css */
+
+nav {
+  background-color: #5151e2;
+  padding: 1rem 2rem;
+  box-shadow: 0 4px 12px rgba(215, 208, 6, 0.2);
+  position: sticky;
+  top: 0;
+  z-index: 1000;
+  border-radius: 12px; /* Rounded corners */
+  margin: 1rem auto; /* Center horizontally */
+  max-width: 80%; /* Limit width for better aesthetics */
+}
+
+ul {
+  list-style: none;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 2rem;
+  margin: 0;
+  padding: 0;
+}
+
+li a {
+  color: white;
+  text-decoration: none;
+  font-size: 1.2rem;
+  font-weight: 500; 
+  padding: 0.5rem 1rem;
+  transition: all 0.3s ease;
+  border-radius: 8px; /* Rounded buttons */
+}
+
+li a:hover {
+  background-color: #34c4ec;
+  color: #1e1e2f;
+}
+
+/* Automatically applied by NavLink when the link is active */
+li a.active {
+  background-color: #3b8df9;
+  color: #1e1e2f;
+}
+
+
+
+
+
